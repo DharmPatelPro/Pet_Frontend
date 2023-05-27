@@ -7,7 +7,7 @@ function ProfileDetails() {
   const [Profile, setProfile] = useState([])
 
   const fetchProfileDetails = async () => {
-    const response = await fetch(`http://localhost:5000/api/profile/fetchProfileDetails/${_id}`, {
+    const response = await fetch(`https://backend-hp5f.onrender.com/api/profile/fetchProfileDetails/${_id}`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json"

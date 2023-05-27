@@ -7,7 +7,7 @@ const UserState = (props) => {
 
 
   const fetchUser = async () => {
-    const response = await fetch("http://localhost:5000/api/user/fetchuserdetails", {
+    const response = await fetch("https://backend-hp5f.onrender.com/api/user/fetchuserdetails", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
@@ -20,7 +20,7 @@ const UserState = (props) => {
 
 
   const createDonor = async (address, phone) => {
-    const response = await fetch(`http://localhost:5000/api/user/createdonor`, {
+    const response = await fetch(`https://backend-hp5f.onrender.com/api/user/createdonor`, {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json',
@@ -35,7 +35,7 @@ const UserState = (props) => {
   
 
   const updateuserDetails = async (address, phone, name) => {
-    const response = await fetch(`http://localhost:5000/api/user/updateuserdetails`, {
+    const response = await fetch(`https://backend-hp5f.onrender.com/api/user/updateuserdetails`, {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json',

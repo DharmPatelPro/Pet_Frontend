@@ -8,7 +8,7 @@ const Signup = (props) => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        const response = await fetch("http://localhost:5000/api/user/createuser", {
+        const response = await fetch("https://backend-hp5f.onrender.com/api/user/createuser", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
