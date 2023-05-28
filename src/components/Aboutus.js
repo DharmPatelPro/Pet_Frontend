@@ -15,15 +15,15 @@ function Aboutus() {
                         <h2 class="title-font font-semibold text-gray-800 tracking-wider text-sm mb-3">By students of RCTI(CE)</h2>
                         <nav class="flex flex-wrap list-none -mb-1">
                             <li class="lg:w-full mb-1 w-full">
-                                <a class="text-gray-600 hover:text-gray-800">Dharm Patel (206400307030)</a>
+                                <p class="text-gray-600 hover:text-gray-800">Dharm Patel (206400307030)</p>
                             </li>
                            
                           
                             <li class="lg:w-full mb-1 w-full">
-                                <a class="text-gray-600 hover:text-gray-800">Devanshu Jadav(206400307044)</a>
+                                <p class="text-gray-600 hover:text-gray-800">Devanshu Jadav(206400307044)</p>
                             </li>
                             <li class="lg:w-full mb-1 w-full">
-                                <a class="text-gray-600 hover:text-gray-800">Kalash Mehta (206400307031)</a>
+                                <p class="text-gray-600 hover:text-gray-800">Kalash Mehta (206400307031)</p>
                             </li>
                            
                         </nav>

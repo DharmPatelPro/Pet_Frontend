@@ -1,4 +1,4 @@
-import React, { useEffect, useContext, useState } from 'react';
+import React, { useEffect, useContext } from 'react';
 import { Link } from "react-router-dom";
 import profileContext from '../context/profiles/profileContext';
 

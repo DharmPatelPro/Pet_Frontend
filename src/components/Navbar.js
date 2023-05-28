@@ -7,13 +7,13 @@ function Navbar() {
 
       <header >
         <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center ">
-          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+          <Link to="/" class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
             <span class="ml-3 text-3xl">Pet Adoption Website</span>
-          </a>
+          </Link>
           <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-            <a class="mr-5 title-font text-2xl font-medium hover:text-gray-900"><Link to="/">Home</Link></a>
-            {localStorage.getItem('token') && <a class="mr-5 title-font text-2xl font-medium hover:text-gray-900"><Link to="/dashboard">Dashboard</Link></a>}
-            <a class="mr-5 title-font text-2xl font-medium hover:text-gray-900"><Link to="/aboutus">About Us</Link></a>
+          <Link to="/" class="mr-5 title-font text-2xl font-medium hover:text-gray-900">Home</Link>
+            {localStorage.getItem('token') && <Link to="/dashboard" class="mr-5 title-font text-2xl font-medium hover:text-gray-900">Dashboard</Link>}
+            <Link to="/aboutus" class="mr-5 title-font text-2xl font-medium hover:text-gray-900">About Us</Link>
           </nav>
           {!(localStorage.getItem('token')) &&<Link to="/login" class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Login
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">

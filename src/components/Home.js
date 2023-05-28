@@ -1,4 +1,4 @@
-import React, { useEffect,useContext, useState } from 'react';
+import React, { useEffect,useContext } from 'react';
 import { Link } from "react-router-dom";
 import profileContext from '../context/profiles/profileContext';
 
@@ -21,9 +21,9 @@ function Home() {
       <section class="text-gray-600 body-font">
         <div class="container px-5 py-20 mx-auto">
 
-          <div class="flex flex-wrap ">
+          <div class="flex flex-wrap  justify-center ">
             {AllProfiles.map((profile) => {
-              return <div key={profile._id} class="xl:w-1/4 md:w-1/2 p-4s my-5">
+              return <div key={profile._id} class="xl:w-1/4 md:w-1/2  p-4s my-5 ">
                 <Link to={`/${profile._id}`}>
                   <div class="bg-gray-100 p-6 rounded-lg mx-3 border-2  shadow-xl border-gray-400 shadow-gray-600 ">
                     <img class="h-40 rounded w-full object-cover object-center mb-6" src={profile.image} alt="Pet's img" />

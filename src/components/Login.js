@@ -38,9 +38,9 @@ const Login = (props) => {
 
             <section class="bg-gray-100">
                 <div class="flex flex-col items-center justify-center  mx-auto md:h-screen lg:py-0">
-                    <a href="#" class="flex items-center mb-6 text-2xl font-semibold text-gray-900 ">
+                    <h1  class="flex items-center mb-6 text-2xl font-semibold text-gray-900 ">
                         Login Page
-                    </a>
+                    </h1>
                     <div class="w-full bg-gray-00 rounded-lg   md:mt-0 sm:max-w-md xl:p-0  shadow-md border-gray-400 shadow-gray-600 ">
                         <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
                             <h1 class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl ">
