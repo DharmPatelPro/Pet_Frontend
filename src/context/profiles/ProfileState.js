@@ -10,7 +10,7 @@ const ProfileState = (props) => {
  
 
   const fetchAll = async () => {
-    const response = await fetch("https://backend-hp5f.onrender.com//api/profile/fetchall", {
+    const response = await fetch("https://backend-hp5f.onrender.com/api/profile/fetchall", {
       method: "GET",
       headers: {
         "Content-Type": "application/json"
@@ -25,7 +25,7 @@ const ProfileState = (props) => {
 
 
   const fetchAllUserProfiles = async () => {
-    const response = await fetch("https://backend-hp5f.onrender.com//api/profile/fetchallprofiles", {
+    const response = await fetch("https://backend-hp5f.onrender.com/api/profile/fetchallprofiles", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -38,7 +38,7 @@ const ProfileState = (props) => {
 
   const addProfile = async (name, tag, age, breed, gender, description, city, state, image) => {
     console.log(name, tag, age, breed, gender, description, city, state)
-    const response = await fetch(`https://backend-hp5f.onrender.com//api/profile/addpet`, {
+    const response = await fetch(`https://backend-hp5f.onrender.com/api/profile/addpet`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -53,7 +53,7 @@ const ProfileState = (props) => {
 
   const deleteProfile = async (id) => {
     // API Call
-    const response = await fetch(`https://backend-hp5f.onrender.com//api/profile/deleteprofile/${id}`, {
+    const response = await fetch(`https://backend-hp5f.onrender.com/api/profile/deleteprofile/${id}`, {
       method: 'DELETE',
       headers: {
         'Content-Type': 'application/json',
@@ -67,7 +67,7 @@ const ProfileState = (props) => {
 
   const updateProfile = async (id, name, tag, age, breed, gender, description, city, state, image) => {
     console.log(id, name, tag, age, breed, gender, description, city, state)
-    const response = await fetch(`https://backend-hp5f.onrender.com//api/profile/updateprofile/${id}`, {
+    const response = await fetch(`https://backend-hp5f.onrender.com/api/profile/updateprofile/${id}`, {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json',
