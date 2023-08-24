@@ -36,12 +36,7 @@ function Aboutus() {
                             </li>
 
 
-                            <li class="lg:w-full mb-1 w-full">
-                                <p class="text-gray-600 hover:text-gray-800">Devanshu Jadav(206400307044)</p>
-                            </li>
-                            <li class="lg:w-full mb-1 w-full">
-                                <p class="text-gray-600 hover:text-gray-800">Kalash Mehta (206400307031)</p>
-                            </li>
+                            
 
                         </nav>
                     </div>
